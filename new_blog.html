@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Salsa|Poppins|Roboto|Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Admin - Dashborad</title>
+    <link rel="stylesheet" href="css/admin-styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="site-title">
+            <a href="admin.html"><h1>&lt;NJF/&gt;</h1></a>
+            <!-- <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a> -->
+        </div>
+        <nav class="navbar">
+            <h1>Site Administration</h1>
+        </nav>
+    </header>
+    <main>
+        <div class="form-wrapper">
+            <h1>Create New Blog Article </h1>
+            <form action="#">
+                <div>
+                    <label for="name">Blog Title:</label><br>
+                    <input type="text" placeholder="Blog name...">
+                </div>
+                
+                <div>
+                    <label for="message">Content:</label><br>
+                    <textarea placeholder="Blog content..." required ></textarea>
+                </div>
+                <div>
+                    <label for="email">Featured Image:</label>
+                    <input type="file"  required style="height: initial;">
+                </div>
+                <div>
+                    <label for="email">Blog Slug:</label><br>
+                    <input type="email" placeholder='blog slug...' required>
+                </div>
+                <div>
+                    <input type="checkbox" style="width:20px;height:20px;">
+                    <label for="email">Publish</label>
+                </div>
+                <div>
+                    <button type="submit">Create Blog</button> &nbsp;<a href="admin.html"><button type="button" style="width: fit-content;color:rgb(68, 7, 7);border:1px solid rgb(68, 7, 7);">Cancel</button></a>
+                </div>
+            </form>
+            <br>
+        </div>
+    </main>
+</body>
+</html>
